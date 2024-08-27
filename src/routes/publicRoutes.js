@@ -61,7 +61,7 @@ server.post('/login', (req, res) => {
     res.status(200).json({ access_token, user })
 })
 
-server.get('/novidades', (req, res) => {
+server.get('/lançamentos', (req, res) => {
     res.status(200).json([
         {
             "id": 4,
